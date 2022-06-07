@@ -16,6 +16,9 @@ namespace BasicFunctionalProb
                Console.WriteLine("5 for Factors");
                Console.WriteLine("6 for Quotient and remainder");
                Console.WriteLine("7 for Swap two Number");
+               Console.WriteLine("8 for Check even or odd");
+               Console.WriteLine("9 for Check Vowels");
+
 
             int Problem = Convert.ToInt32(Console.ReadLine());
                switch (Problem)
@@ -48,7 +51,15 @@ namespace BasicFunctionalProb
                     SwappingNumber swapnumber = new SwappingNumber();
                     swapnumber.SwapTwoNumber();
                     break;
-            }
+                case 8:
+                    CheckEvenorOdd checkevenorodd = new CheckEvenorOdd();
+                    checkevenorodd.EvenOrOdd();
+                    break;
+                case 9:
+                    AlphabetOvels ovels = new AlphabetOvels();
+                    ovels.CheckVowelOrConsonant();
+                    break;
+               }
            }
        }
 }
