@@ -18,6 +18,7 @@ namespace BasicFunctionalProb
                Console.WriteLine("7 for Swap two Number");
                Console.WriteLine("8 for Check even or odd");
                Console.WriteLine("9 for Check Vowels");
+               Console.WriteLine("10 for Check Largest of Three Numbers");
 
 
             int Problem = Convert.ToInt32(Console.ReadLine());
@@ -59,7 +60,11 @@ namespace BasicFunctionalProb
                     CheckOvels ovels = new CheckOvels();
                     ovels.CheckVowelOrConsonant();
                     break;
-               }
+                case 10:
+                    LargestNumber largestnumber = new LargestNumber();
+                    largestnumber.LargestThreeNumbers();
+                    break;
+            }
            }
        }
 }
