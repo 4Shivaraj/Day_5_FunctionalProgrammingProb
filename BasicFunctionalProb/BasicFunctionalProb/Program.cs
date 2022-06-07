@@ -56,7 +56,7 @@ namespace BasicFunctionalProb
                     checkevenorodd.EvenOrOdd();
                     break;
                 case 9:
-                    AlphabetOvels ovels = new AlphabetOvels();
+                    CheckOvels ovels = new CheckOvels();
                     ovels.CheckVowelOrConsonant();
                     break;
                }
