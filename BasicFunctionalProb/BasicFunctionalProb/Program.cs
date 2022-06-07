@@ -13,7 +13,7 @@ namespace BasicFunctionalProb
                Console.WriteLine("2 for Leap Year");
                Console.WriteLine("3 for Power of two");
                Console.WriteLine("4 for Harmonic Number");
-
+               Console.WriteLine("5 for Factors");
 
             int Problem = Convert.ToInt32(Console.ReadLine());
                switch (Problem)
@@ -34,7 +34,11 @@ namespace BasicFunctionalProb
                     Harmonic harmonic = new Harmonic();
                     harmonic.HarmonicNum();
                     break;
-               }
+                case 5:
+                    FactorsProb factors = new FactorsProb();
+                    factors.Factors();
+                    break;
+            }
            }
        }
 }
