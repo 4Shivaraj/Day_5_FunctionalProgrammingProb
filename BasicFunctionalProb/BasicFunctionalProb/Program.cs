@@ -2,7 +2,6 @@
 using System;
 
 namespace BasicFunctionalProb
-
 { 
        class program
        {
@@ -64,7 +63,7 @@ namespace BasicFunctionalProb
                     LargestNumber largestnumber = new LargestNumber();
                     largestnumber.LargestThreeNumbers();
                     break;
-            }
+               }
            }
        }
 }
